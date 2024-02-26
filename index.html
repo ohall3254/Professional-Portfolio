@@ -1,40 +1,83 @@
 <!DOCTYPE html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Contact Me Page</title>
 
-
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav>
-    <div id="home">Home</div>
-    <div id="about">About Me</div>
-    <div id="work">My Work</div>
-    <div id="contact">Contact Me</div>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#work">My Work</a>
+    <a href="#contact">Contact Me</a>
   </nav>
+<br>
 
-<div class="about">About Me</div>
-  <p>
-    <br><br>
+<div>
+  <h1>My Portfolio!</h1>
+</div>
 
-    <figure>
-      <img src="olivia-photo.jpg" alt="Photo of Olivia Hall sitting outside wearing rock climbing gear" width="50%">
-      <figcaption>Photo of me! Courtesy of  Madhav Singh (<a href="https://www.instagram.com/_madhav/">@_madhav</a>)  
-      </figcaption>
-    </figure>
-    
-    <br>
-    
-    <p> Hi, didn’t see ya there! My name is Olivia Hall. I’m originally from Dayton, Ohio, but I’ve lived in 10 different states doing seasonal work in the fields of conservation and outdoor education. 
-      <br><br>I value community, connection, and humor. Besides my variety of seasonal work, I also volunteer with a number of different organizations, primarily ones that are focused on uplifting underrepresented people in spaces ranging from outdoor recreation to the tech industry.
-      <br><br>Outside of technology and design, I have a plethora of interests including outdoor pursuits (primarily rock climbing but also biking, whitewater paddling, and hiking), arts and crafts, and media (reading, listening to music, and watching television, movies, and video essays).</p>
-  </p>
+<div>
+  <h2 class="about" id="about">About Me</h2>
+    <p>
+
+      <figure>
+        <img src="olivia-photo.jpg" alt="Photo of Olivia Hall sitting outside wearing rock climbing gear" width="50%">
+        <figcaption>Photo of me! Courtesy of  Madhav Singh (<a href="https://www.instagram.com/_madhav/">@_madhav</a>)  
+        </figcaption>
+      </figure>
+      
+      <br>
+      
+      <p> Hi, didn’t see ya there! My name is Olivia Hall. I’m originally from Dayton, Ohio, but I’ve lived in 10 different states doing seasonal work in the fields of conservation and outdoor education. 
+        <br><br>I value community, connection, and humor. Besides my variety of seasonal work, I also volunteer with a number of different organizations, primarily ones that are focused on uplifting underrepresented people in spaces ranging from outdoor recreation to the tech industry.
+        <br><br>Outside of technology and design, I have a plethora of interests including outdoor pursuits (primarily rock climbing but also biking, whitewater paddling, and hiking), arts and crafts, and media (reading, listening to music, and watching television, movies, and video essays).</p>
+    </p>
+</div>
+
+<div>
+  <h2 class="work" id="work">My Work</h2>
+
+</div>
+
+<div>
+  <h2 class="contact" id="contact">Contact Me</h2>
+    <p>Shoot me an email: oliviachall321@gmail.com</p>
+    <p>Or fill out this form!</p>
+      <form class="ui inverted form">
+        <div class="ten wide field">
+            <br>
+          <label>Name</label>
+            <br>
+          <input type="text" name="first-name" placeholder="Name"/>
+        </div>
+        <div class="ten wide field">
+            <br>
+          <label>Email</label>
+            <br>
+          <input type="text" name="last-name" placeholder="Email Address"/>
+        </div>
+        <div class="field">
+            <br>
+          <label>Message</label>
+            <br>
+          <textarea name="message" placeholder="Write your message here!" rows="4"></textarea>
+        </div>
+        <button type="submit" class="ui primary button">Submit</button>
+      </form>
+</div>
 
 
+<br>
+<br>
 
-
+<footer>
+  <p>Copright © 2024 Olivia Hall</p>
+</footer>
 
   
 </body>
